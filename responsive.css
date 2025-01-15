@@ -64,11 +64,41 @@ body{
 /* first section design end here */
 
 
+/* second section design start here */
+
+.serve{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 50px;
+
+}
+.serve-title{
+    color: rgba(39, 39, 39, 0.8);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+/* decond section design end here  */
+
+
 /* responsive for small size  */
 
 @media screen and (max-width:576px) {
 
-    .container{
+
+  /* responsive section one */
+
+    .container , .serve{
         flex-direction: column;
     }
     .container > div {
@@ -82,11 +112,25 @@ body{
     }
     .banner-title{
         font-weight: 600;
-        font-size: 50px;
+        font-size: 45px;
         line-height: 66px;
         
     }
     .img-container img{
         width: 100%;
     }
+  /* responsive section one end */
+
+
+
+    .serve{
+        width: 100%;
+        
+    }
+    .box{
+        margin-bottom: 50px;
+        
+
+    }
+    
 }
