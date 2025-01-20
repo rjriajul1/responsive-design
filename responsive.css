@@ -179,3 +179,116 @@ background: rgba(71, 125, 17, 0.15);
 
 
 
+/* five section design start here */
+
+.instagram{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.instagram-img  img{
+   padding: 14px;  
+  
+  
+   
+}
+
+/* five section design end here */
+
+/* sixth section design start here */
+
+.last-deal{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid teal; */
+    background-image: url("./Flower\ Asset/rectangle 9.png");
+    background-repeat: no-repeat;
+    height: 449px;
+    background-position: center;
+    margin-top: 100px;
+    
+
+}
+.last-deal-container{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.form{
+    
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+
+}
+
+.form input{
+    width: 75%;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    outline: none;
+   
+}
+.form button{
+    width: 20%;
+    border-radius: 8px;
+    padding: 14px ;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: white;
+    
+}
+.form-container{
+    margin: 0 auto;
+    /* border: 2px solid green; */
+}
+
+
+/* sixth section design end here */
+
+
+/* seven section design start here */
+
+.footer-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+   color: rgb(229, 84, 115);
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.596);
+    margin: 20px 0;
+}
+.reserved{
+    color: rgba(255, 255, 255, 0.342);
+}
+.footer-title{
+    font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+
+
+}
+
+
+/* seven section design end here */
+
+
+
