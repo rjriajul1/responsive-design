@@ -30,6 +30,7 @@ body{
     background: rgba(229, 84, 115, 0.1);
      display: flex;
      padding: 20px;
+     max-width: 1920px;
     
 }
 
@@ -64,7 +65,72 @@ body{
 /* first section design end here */
 
 
-/* second section design start here */
+/* second section start here */
+
+.our-features{
+    max-width: 80%;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    margin-top: 150px ;
+    margin-bottom: 100px;
+}
+.features-contennt{
+    text-align: center;
+}
+.section-title{
+color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+
+    
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.features-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.features-img img{
+    padding: 76px;
+}
+.first-img{
+   width: 30%;
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(167, 33, 98, 0.15);
+}
+.second-img{
+    width: 30%;
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(5, 151, 160, 0.15);
+}
+.third-img{
+   width:30% ; 
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* second section end here */
+
+/* third section design start here */
 
 .serve{
     width: 80%;
@@ -87,50 +153,29 @@ body{
 
 }
 
-
-/* decond section design end here  */
-
-
-/* responsive for small size  */
-
-@media screen and (max-width:576px) {
-
-
-  /* responsive section one */
-
-    .container , .serve{
-        flex-direction: column;
-    }
-    .container > div {
-        width: 100%;
-    } 
-    .content-container{
-        margin: 20px;
-    }
-    .img-container{
-        margin: 20px;
-    }
-    .banner-title{
-        font-weight: 600;
-        font-size: 45px;
-        line-height: 66px;
-        
-    }
-    .img-container img{
-        width: 100%;
-    }
-  /* responsive section one end */
+/* third section end here */
 
 
 
-    .serve{
-        width: 100%;
-        
-    }
-    .box{
-        margin-bottom: 50px;
-        
+/* fourth section start here */
 
-    }
-    
+.hot-deal{
+    border-radius: 8px;
+
+   background: rgba(229, 84, 115, 0.048);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 150px;
+
 }
+.hot-deal-content{
+    text-align: center;
+}
+
+
+/* fourth section design end here  */
+
+
+
